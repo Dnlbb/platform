@@ -19,7 +19,7 @@ type Config struct {
 
 func DefaultConfig() Config {
 	return Config{
-		Level:      "debug",
+		Level:      "DEBUG",
 		Format:     "text",
 		Filename:   "logs/app.log",
 		MaxSizeMB:  10,
